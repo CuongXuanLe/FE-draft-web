@@ -1,0 +1,26 @@
+.PC,.Tablet,.mobile{
+    font-size: 100px;
+    text-align: center;
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .PC{
+        display: block;
+        color: #000;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+    .Tablet{
+        display: block;
+        color: rgb(117, 51, 51);
+    }
+}
+
+@media (max-width: 740px) {
+    .mobile{
+        display: block;
+        color: rgb(26, 129, 189);
+    }
+}
