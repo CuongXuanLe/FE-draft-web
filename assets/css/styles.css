@@ -105,7 +105,7 @@ html
 #nav li a
 {
     text-decoration: none;
-    display: inline-block;
+    display: block;
     padding: 0 24px;
     line-height: 46px;
 }
@@ -139,6 +139,14 @@ html
 {
     font-size: 10px;
 }
+
+#header .mobile-menu-btn{
+    position: absolute;
+    top:0;
+    right: 0;
+    display: none;
+}
+
 #header .search-btn,
 #header .mobile-menu-btn
 {
@@ -367,7 +375,7 @@ html
     text-decoration: none;
     background-color: #000;
     cursor: pointer;
-    border: 1px solid #000;
+    border: 1px none #000;
 }
 .place-buy-btn:hover
 {
