@@ -8,6 +8,11 @@
 }
 /*Mobile*/
 @media (max-width: 740px) {
+
+    #header{
+        overflow: hidden;
+    }
+
     #nav{
         display: block;
     }
@@ -18,6 +23,10 @@
 
     #nav>li:first-child{
         display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial;
     }
     #header .search-btn{
         display: none;
