@@ -25,6 +25,10 @@ html
     margin-top: 16px !important;
 }
 
+.mt-32{
+    margin-top: 32px !important;
+}
+
 .row{
     margin-left: -8px;
     margin-right: -8px;
@@ -258,7 +262,7 @@ html
 
 #content .member-list
 {
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 
@@ -326,7 +330,7 @@ html
 /*Place section*/
 .places-list
 {
-    margin-top: 32px;
+    margin-top: 16px;
     margin-bottom: 48px;
 }
 
