@@ -94,4 +94,19 @@
         text-align: center;
     }
     
+    #slider .text-content{
+        bottom: 15px;
+    }
+
+    #slider .text-heading
+    {
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    #slider .text-description
+    {
+        font-size: 10px;
+        margin-top: 10px;
+    }
 }

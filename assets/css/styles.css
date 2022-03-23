@@ -193,7 +193,7 @@ html
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/assets/img/chicago.jpg') top center / cover no-repeat; /*background: background-img - background-position / background-size - background-repeat */
+    background: url('/assets/img/slide.jpg') top center / cover no-repeat; /*background: background-img - background-position / background-size - background-repeat */
 }
 
 #slider .text-content
@@ -269,6 +269,7 @@ html
 #content .member-name
 {
     font-size: 15px;
+    font-weight: bold;
     
 }
 
@@ -389,14 +390,21 @@ html
 .contact-content{
     margin-top: 48px;
 }
+
 .contact-info{
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.5; 
 }
+
+.contact-info p a{
+    color: #333;
+}
+
 .contact-info i[class*="ti-"]{
     width: 30px;
     display: inline-block;
 }
+
 .contact-form{
     font-size: 15px;
 }
@@ -414,6 +422,7 @@ html
     padding: 10px 19px;
     float: right;
     cursor: pointer;
+    -webkit-appearance: none;
 }
 .form-submit-btn:hover{
     background-color: #ccc;
